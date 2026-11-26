@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net" version="24.9.1">
+  <diagram name="Initiatives C4 Containers" id="initiatives-c4-containers">
+    <mxGraphModel dx="1900" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="Jewelry Store System" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;Jewelry Store System&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[Software System]&lt;/div&gt;" id="boundary_system">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1"><mxGeometry x="40" y="200" width="1540" height="800" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Customer" c4Type="Person" c4Description="Покупатель B2C: выбирает изделие и оформляет заказ" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Customer&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;Покупатель B2C: выбирает изделие и оформляет заказ&lt;/font&gt;&lt;/div&gt;" id="customer">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="100" y="40" width="180" height="150" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Seller" c4Type="Person" c4Description="Продавец: работает с заказами в CRM" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Seller&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;Продавец: работает с заказами в CRM&lt;/font&gt;&lt;/div&gt;" id="seller">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="400" y="40" width="180" height="150" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Operator" c4Type="Person" c4Description="Оператор: берет заказы в работу в MES" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Operator&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;Оператор: берет заказы в работу в MES&lt;/font&gt;&lt;/div&gt;" id="operator">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="700" y="40" width="180" height="150" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="API User" c4Type="Person" c4Description="B2B-партнер: создает заказы через API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;API User&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;B2B-партнер: создает заказы через API&lt;/font&gt;&lt;/div&gt;" id="api_user">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="1120" y="40" width="180" height="150" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Internet Shop" c4Type="Container" c4Technology="Vue, TypeScript, Three.js" c4Description="Витрина, 3D-конструктор, оформление заказа" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Internet Shop&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: Vue, TypeScript, Three.js]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Витрина, 3D-конструктор, оформление заказа&lt;/font&gt;&lt;/div&gt;" id="internet_shop">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="100" y="240" width="220" height="140" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="CRM" c4Type="Container" c4Technology="Vue, TypeScript" c4Description="Интерфейс продавцов для работы с заказами" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;CRM&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: Vue, TypeScript]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Интерфейс продавцов для работы с заказами&lt;/font&gt;&lt;/div&gt;" id="crm">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="400" y="240" width="220" height="140" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="MES" c4Type="Container" c4Technology="React, TypeScript" c4Description="Дашборд операторов и производственные статусы" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;MES&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: React, TypeScript]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Дашборд операторов и производственные статусы&lt;/font&gt;&lt;/div&gt;" id="mes">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="700" y="240" width="220" height="140" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="API Gateway" c4Description="Единая точка входа для всех внешних клиентов: аутентификация, ограничение нагрузки, версии, idempotency" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;API Gateway&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: API Gateway]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Единая точка входа для всех внешних клиентов: аутентификация, ограничение нагрузки, версии, idempotency&lt;/font&gt;&lt;/div&gt;" id="api_gateway">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#2E7D32;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1B5E20;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1"><mxGeometry x="1040" y="240" width="300" height="140" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Shop API" c4Type="Container" c4Technology="Spring Boot" c4Description="Каталог, корзина, прием 3D-файлов, B2C-заказы" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Shop API&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: Spring Boot]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Каталог, корзина, прием 3D-файлов, B2C-заказы&lt;/font&gt;&lt;/div&gt;" id="shop_api">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1"><mxGeometry x="100" y="440" width="220" height="160" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="CRM API" c4Type="Container" c4Technology="Spring Boot" c4Description="Клиенты, продажи, подтверждение заказов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;CRM API&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: Spring Boot]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Клиенты, продажи, подтверждение заказов&lt;/font&gt;&lt;/div&gt;" id="crm_api">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1"><mxGeometry x="400" y="440" width="220" height="160" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Order Orchestrator" c4Type="Container" c4Technology="Order Lifecycle Service" c4Description="State machine, timeline, saga, status API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Order Orchestrator&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: Order Lifecycle Service]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;State machine, timeline, saga, status API&lt;/font&gt;&lt;/div&gt;" id="order_orchestrator">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#2E7D32;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1B5E20;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1"><mxGeometry x="720" y="430" width="300" height="180" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="MES API" c4Type="Container" c4Technology="C#" c4Description="Производство, операторы, расчет стоимости" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;MES API&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: C#]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Производство, операторы, расчет стоимости&lt;/font&gt;&lt;/div&gt;" id="mes_api">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1"><mxGeometry x="1080" y="440" width="220" height="160" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Pricing Workers" c4Type="Container" c4Technology="Async Workers" c4Description="Асинхронный расчет 3D, очередь, кеш" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Pricing Workers&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: Async Workers]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Асинхронный расчет 3D, очередь, кеш&lt;/font&gt;&lt;/div&gt;" id="pricing_workers">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#2E7D32;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1B5E20;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1"><mxGeometry x="1360" y="440" width="220" height="160" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Shop DB" c4Type="Container" c4Technology="PostgreSQL" c4Description="Каталог, корзина, данные B2C" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Shop DB&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Каталог, корзина, данные B2C&lt;/font&gt;&lt;/div&gt;" id="shop_db">
+          <mxCell style="shape=cylinder3;size=20;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="100" y="680" width="220" height="100" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="CRM DB" c4Type="Container" c4Technology="PostgreSQL" c4Description="Клиенты и продажи; отдельная БД" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;CRM DB&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Клиенты и продажи; отдельная БД&lt;/font&gt;&lt;/div&gt;" id="crm_db">
+          <mxCell style="shape=cylinder3;size=20;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#2E7D32;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#1B5E20;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="400" y="680" width="220" height="100" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Order DB" c4Type="Container" c4Technology="PostgreSQL" c4Description="Состояние и timeline заказов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Order DB&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Состояние и timeline заказов&lt;/font&gt;&lt;/div&gt;" id="order_db">
+          <mxCell style="shape=cylinder3;size=20;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#2E7D32;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#1B5E20;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="720" y="680" width="300" height="100" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="MES DB" c4Type="Container" c4Technology="PostgreSQL" c4Description="Производственные заказы и назначения" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;MES DB&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: PostgreSQL]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Производственные заказы и назначения&lt;/font&gt;&lt;/div&gt;" id="mes_db">
+          <mxCell style="shape=cylinder3;size=20;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="1080" y="680" width="220" height="100" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="3D Files Storage" c4Type="Container" c4Technology="S3" c4Description="3D-модели для расчета и производства" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;3D Files Storage&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: S3]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;3D-модели для расчета и производства&lt;/font&gt;&lt;/div&gt;" id="threed_storage">
+          <mxCell style="shape=cylinder3;size=20;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="1360" y="680" width="220" height="100" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Messages Queue" c4Type="Container" c4Technology="RabbitMQ" c4Description="События заказов, outbox, DLQ, retry, idempotency" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Messages Queue&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: RabbitMQ]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;События заказов, outbox, DLQ, retry, idempotency&lt;/font&gt;&lt;/div&gt;" id="event_bus">
+          <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="400" y="840" width="300" height="110" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Redis (Cache)" c4Type="Container" c4Technology="Redis" c4Description="Кеш для дашборда и API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Redis (Cache)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: Redis]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Кеш для дашборда и API&lt;/font&gt;&lt;/div&gt;" id="redis_cache">
+          <mxCell style="shape=cylinder3;size=20;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#2E7D32;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#1B5E20;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1"><mxGeometry x="720" y="840" width="300" height="110" as="geometry" /></mxCell>
+        </object>
+        <object placeholders="1" c4Name="Observability" c4Type="Container" c4Technology="Metrics, Logs, Traces" c4Description="Метрики, логи, трейсы, алерты" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Observability&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Container: Metrics, Logs, Traces]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;Метрики, логи, трейсы, алерты&lt;/font&gt;&lt;/div&gt;" id="observability">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#2E7D32;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1B5E20;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1"><mxGeometry x="1620" y="240" width="220" height="120" as="geometry" /></mxCell>
+        </object>
+        <mxCell id="e_customer_shop" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="customer" target="internet_shop" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_seller_crm" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="seller" target="crm" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_operator_mes" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="operator" target="mes" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_api_user_gateway" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="api_user" target="api_gateway" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_shop_gateway" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="internet_shop" target="api_gateway" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="210" y="390" /><mxPoint x="1100" y="390" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_crm_gateway" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="crm" target="api_gateway" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="510" y="400" /><mxPoint x="1120" y="400" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_mes_gateway" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="mes" target="api_gateway" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="810" y="410" /><mxPoint x="1140" y="410" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_gateway_orch" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="api_gateway" target="order_orchestrator" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1180" y="420" /><mxPoint x="900" y="420" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_gateway_shop" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="api_gateway" target="shop_api" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1060" y="425" /><mxPoint x="210" y="425" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_gateway_crm" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="api_gateway" target="crm_api" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1120" y="415" /><mxPoint x="510" y="415" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_gateway_mes" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="api_gateway" target="mes_api" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1240" y="405" /><mxPoint x="1190" y="405" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_orch_shop" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="order_orchestrator" target="shop_api" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="760" y="620" /><mxPoint x="340" y="620" /><mxPoint x="340" y="520" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_orch_crm" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="order_orchestrator" target="crm_api" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="800" y="630" /><mxPoint x="640" y="630" /><mxPoint x="640" y="520" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_orch_mes" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="order_orchestrator" target="mes_api" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_orch_pricing" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="order_orchestrator" target="pricing_workers" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="900" y="640" /><mxPoint x="1340" y="640" /><mxPoint x="1340" y="520" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_orch_orderdb" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="order_orchestrator" target="order_db" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_shop_shopdb" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="shop_api" target="shop_db" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_crm_crmdb" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="crm_api" target="crm_db" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_mes_mesdb" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="mes_api" target="mes_db" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_pricing_storage" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="pricing_workers" target="threed_storage" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_shop_storage" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="shop_api" target="threed_storage" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="300" y="660" /><mxPoint x="1550" y="660" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_mes_storage" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="mes_api" target="threed_storage" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1290" y="650" /><mxPoint x="1530" y="650" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_shop_bus" value="события" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;" parent="1" source="shop_api" target="event_bus" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="300" y="671" /><mxPoint x="360" y="671" /><mxPoint x="360" y="895" /><mxPoint x="400" y="895" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_crm_bus" value="события" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;" parent="1" source="crm_api" target="event_bus" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="600" y="673" /><mxPoint x="660" y="673" /><mxPoint x="660" y="870" /><mxPoint x="700" y="870" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_orch_bus" value="события" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;" parent="1" source="order_orchestrator" target="event_bus" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="800" y="675" /><mxPoint x="680" y="675" /><mxPoint x="680" y="890" /><mxPoint x="700" y="890" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_mes_bus" value="события" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;startArrow=classic;startFill=1;" parent="1" source="mes_api" target="event_bus" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1100" y="677" /><mxPoint x="1050" y="677" /><mxPoint x="1050" y="970" /><mxPoint x="700" y="970" /><mxPoint x="700" y="950" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_shop_redis" value="кеш" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="shop_api" target="redis_cache" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="300" y="672" /><mxPoint x="340" y="672" /><mxPoint x="340" y="975" /><mxPoint x="870" y="975" /><mxPoint x="870" y="950" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_crm_redis" value="кеш" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="crm_api" target="redis_cache" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="600" y="674" /><mxPoint x="710" y="674" /><mxPoint x="710" y="965" /><mxPoint x="820" y="965" /><mxPoint x="820" y="950" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_orch_redis" value="кеш" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="order_orchestrator" target="redis_cache" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="760" y="676" /><mxPoint x="715" y="676" /><mxPoint x="715" y="955" /><mxPoint x="770" y="955" /><mxPoint x="770" y="950" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_mes_redis" value="кеш" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="mes_api" target="redis_cache" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1100" y="678" /><mxPoint x="1035" y="678" /><mxPoint x="1035" y="985" /><mxPoint x="920" y="985" /><mxPoint x="920" y="950" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_gateway_redis" value="кеш" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;" parent="1" source="api_gateway" target="redis_cache" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1350" y="360" /><mxPoint x="1350" y="975" /><mxPoint x="970" y="975" /><mxPoint x="970" y="950" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_gateway_obs" value="телеметрия" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;dashed=1;" parent="1" source="api_gateway" target="observability" edge="1">
+          <mxGeometry relative="1" as="geometry"></mxGeometry>
+        </mxCell>
+        <mxCell id="e_orch_obs" value="телеметрия" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;dashed=1;" parent="1" source="order_orchestrator" target="observability" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="840" y="395" /><mxPoint x="1600" y="395" /><mxPoint x="1600" y="360" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e_pricing_obs" value="телеметрия" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;dashed=1;" parent="1" source="pricing_workers" target="observability" edge="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1580" y="520" /><mxPoint x="1595" y="520" /><mxPoint x="1595" y="300" /></Array></mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
